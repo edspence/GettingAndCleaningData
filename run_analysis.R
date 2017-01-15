@@ -56,3 +56,5 @@ Measurements <- joinedData[ , Is_Mean_or_STD == TRUE]
 
 tidyData <- group_by(Measurements, subjectId, activityId) %>%
   summarise_each(funs(mean))
+
+# Output the tidyData dataset with write.table()
