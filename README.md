@@ -15,6 +15,6 @@ Appropriately labels the data set with descriptive variable names.
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 # The files contained in this repository are:
-- Codebook.md describes the raw data files and how they were edited following tidy data principals for downstream analysis.
-- run_analysis.R is the R code used to edit the raw files.
+- Codebook.md describes first the raw data files, second the subset of mean and standard deviations files that was extracted, and finally third: how this subset was used to create the TidyData.csv output by taking the mean of each sample.
+- run_analysis.R is the R code used to subset the raw data files and create the TidyData output.
 - TidyData.csv is the output of the R code, to be used for downstream analysis.
